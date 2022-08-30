@@ -121,7 +121,6 @@ function handleEdit(e){
 
 editForm.addEventListener('submit', handleEdit)
 
-}
 
 
 function resizeImg(){
@@ -132,4 +131,5 @@ function resizeImg(){
 }
 resizeImg()
 
+}
 

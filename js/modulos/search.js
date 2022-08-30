@@ -1,7 +1,6 @@
 export default function initSearch(){
 
 
-}
 const search = document.querySelector('#search')
 const searchInput = document.querySelector('#search-input')
 const optionsTodo = document.querySelectorAll('#filter-select')
@@ -72,4 +71,5 @@ optionsTodo.forEach((option)=>{
 })
 }
 initFilterTodo()
+}
   
