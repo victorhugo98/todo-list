@@ -17,7 +17,8 @@ img{
   display: block;
 }
 body{
-  background-image: url(./img/imgresize.jpg);
+  background-image: url(/img/imgresize.jpg);
+  background-color: #395169;
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -63,6 +64,7 @@ input, select{
   padding: 1.5rem;
   border-radius: 15px;
   transition: .3s;
+  box-shadow: 0 5px 20px black;
 }
 .todo-container header{
   text-align: center;

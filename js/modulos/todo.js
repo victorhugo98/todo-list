@@ -126,7 +126,7 @@ editForm.addEventListener('submit', handleEdit)
 function resizeImg(){
   
   if(window.innerWidth > 1920){
-    document.body.style.backgroundImage = "url('./img/imagemBackground.jpg')"
+    document.body.style.backgroundImage = "url('/img/imagemBackground.jpg')"
   }
 }
 resizeImg()
